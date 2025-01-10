@@ -3,9 +3,6 @@ tab:nice-tab
 eq:binom
 thm:tri
 about
-usage
-render-book
-preview-book
 hello-bookdown
 a-section
 cross
@@ -23,3 +20,4 @@ sharing-your-book
 publishing
 pages
 metadata-for-sharing
+quick-definitions
