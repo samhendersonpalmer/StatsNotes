@@ -16,3 +16,5 @@ github-repo: samhendersonpalmer/StatsNotes
 These are notes from various course, books and talks that I'm keeping a note of for future use
 
 ## Quick definitions
+
+test
