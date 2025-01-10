@@ -4,5 +4,3 @@
 .Ruserdata
 _bookdown_files
 _book
-_book/*
-packages.bib
