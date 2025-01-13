@@ -17,4 +17,11 @@ These are notes from various course, books and talks that I'm keeping a note of 
 
 ## Quick definitions
 
-test
+**95% confidence interval:** We can say with 95% certainty/confidence that the true population parameter of interest lies within the interval upon repeated sampling of the population. Or Ben Goldacres definition (from page 60 of "It's a bit more complicated than that"):
+
+> "it means that if you repeatedly took samples of a hundred, then on 95 per cent of those attempts, the true [parameter] would lie somewhere between the upper and lower limits of the 95 per cent confidence intervals of yout samples."
+
+
+## Quotes
+
+> "We are barraged, every day, with a vast quantity of numerical data, presented with absolute certainty and fetishistic precision. In reality, many of these numbers amount to nothing more than statistical noise, the gentle static fuzz of random variation and sampling error, making figures drift up and down, following no pattern at all, like the changing roll of a dice. This, I confidently predict, will never change" Ben Goldacre, pg 61 "It's a bit more complicated than that"
