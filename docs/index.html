@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>References | Everything I Know About Stats</title>
+  <title>Everything I Know About Stats</title>
   <meta name="description" content="These are all my stats notes." />
   <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="References | Everything I Know About Stats" />
+  <meta property="og:title" content="Everything I Know About Stats" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="These are all my stats notes." />
   <meta name="github-repo" content="samhendersonpalmer/StatsNotes" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="References | Everything I Know About Stats" />
+  <meta name="twitter:title" content="Everything I Know About Stats" />
   
   <meta name="twitter:description" content="These are all my stats notes." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="sharing-your-book.html"/>
 
+<link rel="next" href="probability.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -168,7 +168,8 @@ div.csl-indent {
 <li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#quick-definitions"><i class="fa fa-check"></i><b>1.1</b> Quick definitions</a></li>
 <li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#general-programming-tips"><i class="fa fa-check"></i><b>1.2</b> General programming tips</a>
 <ul>
-<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#project-structure---example-of-this-here"><i class="fa fa-check"></i><b>1.2.1</b> Project structure - Example of this here</a></li>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#this-book"><i class="fa fa-check"></i><b>1.2.1</b> This book</a></li>
+<li class="chapter" data-level="1.2.2" data-path="index.html"><a href="index.html#project-structure---example-of-this-here"><i class="fa fa-check"></i><b>1.2.2</b> Project structure - Example of this here</a></li>
 </ul></li>
 <li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#quotes"><i class="fa fa-check"></i><b>1.3</b> Quotes</a></li>
 </ul></li>
@@ -244,21 +245,49 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="references" class="section level1 unnumbered hasAnchor">
-<h1>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-
-<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
-<div class="csl-entry">
-Xie, Yihui. 2015. <em>Dynamic Documents with <span>R</span> and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.org/knitr/">http://yihui.org/knitr/</a>.
+<div id="header">
+<h1 class="title">Everything I Know About Stats</h1>
+<p class="author"><em>Sam Henderson-Palmer</em></p>
+<p class="date"><em>2025-03-21</em></p>
 </div>
-<div class="csl-entry">
-———. 2025. <em>Bookdown: Authoring Books and Technical Documents with r Markdown</em>. <a href="https://github.com/rstudio/bookdown">https://github.com/rstudio/bookdown</a>.
+<div id="about" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> About<a href="index.html#about" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>These are notes from various course, books and talks that I’m keeping a note of for future use</p>
+<div id="quick-definitions" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Quick definitions<a href="index.html#quick-definitions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>95% confidence interval:</strong> We can say with 95% certainty/confidence that the true population parameter of interest lies within the interval upon repeated sampling of the population. Or Ben Goldacres definition (from page 60 of “It’s a bit more complicated than that”):</p>
+<blockquote>
+<p>“it means that if you repeatedly took samples of a hundred, then on 95 per cent of those attempts, the true [parameter] would lie somewhere between the upper and lower limits of the 95 per cent confidence intervals of yout samples.”</p>
+</blockquote>
+</div>
+<div id="general-programming-tips" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> General programming tips<a href="index.html#general-programming-tips" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="this-book" class="section level3 hasAnchor" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> This book<a href="index.html#this-book" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>To preview a specific page to prevent building the whole thing just do <code>bookdown::preview_chapter("01-intro.Rmd", 'bookdown::gitbook')</code> then open the corresponding html file within the <code>_book/</code> folder.</p>
+</div>
+<div id="project-structure---example-of-this-here" class="section level3 hasAnchor" number="1.2.2">
+<h3><span class="header-section-number">1.2.2</span> Project structure - Example of this <a href="https://github.com/stangandaho/nest-tree-selection/tree/main">here</a><a href="index.html#project-structure---example-of-this-here" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>README.md - Project overview, usage and dependencies</li>
+<li>setup.R - Install and loads required packages (called at the top of each script)</li>
+<li>utils.R - General utility functions (i.e. custom functions used within scripts repeatedly)</li>
+<li>datasets/ - Stores raw and cleaned data</li>
+<li>scripts/ - Holds processing, viz and analysis scripts</li>
+<li>plots/ - Saves generated images and plots</li>
+<li>tables/ - Store exported analysis tables</li>
+<li>fonts/ (if needed for custom viz)</li>
+</ul>
 </div>
 </div>
+<div id="quotes" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Quotes<a href="index.html#quotes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<blockquote>
+<p>“We are barraged, every day, with a vast quantity of numerical data, presented with absolute certainty and fetishistic precision. In reality, many of these numbers amount to nothing more than statistical noise, the gentle static fuzz of random variation and sampling error, making figures drift up and down, following no pattern at all, like the changing roll of a dice. This, I confidently predict, will never change” Ben Goldacre, pg 61 “It’s a bit more complicated than that”</p>
+</blockquote>
+
 </div>
-
-
-
+</div>
 
 
 
@@ -267,8 +296,8 @@ Xie, Yihui. 2015. <em>Dynamic Documents with <span>R</span> and Knitr</em>. 2nd 
           </div>
         </div>
       </div>
-<a href="sharing-your-book.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
+<a href="probability.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -299,7 +328,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/07-references.Rmd",
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/index.Rmd",
 "text": "Edit"
 },
 "history": {

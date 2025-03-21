@@ -3,6 +3,7 @@ thm:tri
 about
 quick-definitions
 general-programming-tips
+this-book
 project-structure---example-of-this-here
 quotes
 probability
@@ -43,4 +44,3 @@ sharing-your-book
 publishing
 pages
 metadata-for-sharing
-this-book
