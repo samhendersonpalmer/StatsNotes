@@ -21,6 +21,22 @@ These are notes from various course, books and talks that I'm keeping a note of 
 
 > "it means that if you repeatedly took samples of a hundred, then on 95 per cent of those attempts, the true [parameter] would lie somewhere between the upper and lower limits of the 95 per cent confidence intervals of yout samples."
 
+## General programming tips
+
+### This book
+To preview a specific page to prevent building the whole thing just do `bookdown::preview_chapter("01-intro.Rmd", 'bookdown::gitbook')` then open the corresponding html file within the `_book/` folder.
+
+### Project structure - Example of this [here](https://github.com/stangandaho/nest-tree-selection/tree/main)
+
+* README.md - Project overview, usage and dependencies
+* setup.R - Install and loads required packages (called at the top of each script)
+* utils.R - General utility functions (i.e. custom functions used within scripts repeatedly)
+* datasets/ - Stores raw and cleaned data
+* scripts/ - Holds processing, viz and analysis scripts
+* plots/ - Saves generated images and plots
+* tables/ - Store exported analysis tables
+* fonts/ (if needed for custom viz)
+
 
 ## Quotes
 
